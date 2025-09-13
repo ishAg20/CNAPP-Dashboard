@@ -1,12 +1,49 @@
-# React + Vite
+# CNAPP Dashboard - Local Setup and Development Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. Clone the repository
 
-Currently, two official plugins are available:
+```
+git clone https://github.com/ishAg20/CNAPP-Dashboard.git
+cd CNAPP-Dashboard
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 2. Install dependencies
+```
+npm install
+```
+or
+```
+yarn install
+```
 
-## Expanding the ESLint configuration
+## 3. Run in development mode
+```
+npm run dev
+```
+or
+```
+yarn dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Open your browser and go to [http://localhost:3000](http://localhost:3000) to see the app.
+
+## 4. Linting your code
+```
+npm run lint
+```
+or
+```
+yarn lint
+```
+
+- This helps ensure code style consistency and catches syntax issues early.
+
+## 5. Build for production
+```
+npm run build
+```
+or
+```
+yarn build
+```
+- This generates optimized production-ready assets inside the `dist/` folder.
